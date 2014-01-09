@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.license      = 'MIT'
   s.author       = { "liyoro" => "liyoro.li@gmail.com" }
   s.platform     = :ios
-  s.source       = { :git => "https://github.com/liyoro/DZWebBrowser.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/steve21124/DZWebBrowser.git" }
   s.source_files = 'Source/*.{h,m}'
   s.framework    = 'SystemConfiguration', 'CFNetwork', 'MessageUI', 'Social'
   s.resource     = "DZWebBrowser/Source/default-controls.bundle"
