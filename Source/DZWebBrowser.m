@@ -1,4 +1,3 @@
-
 //  DZWebBrowser.m
 //  SimpleWebBrowser
 //
@@ -10,7 +9,8 @@
 #import "DZWebBrowser.h"
 #import <QuartzCore/QuartzCore.h>
 #import "SDURLCache.h"
-#import "SDCachedURLResponse.h"
+//does not need anymore
+//#import "SDCachedURLResponse.h"
 #import <objc/runtime.h>
 
 #define kWebLoadingTimout 10.0
