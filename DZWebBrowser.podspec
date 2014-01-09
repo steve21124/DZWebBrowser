@@ -10,9 +10,12 @@ Pod::Spec.new do |s|
   s.author       = { "liyoro" => "liyoro.li@gmail.com" }
   s.platform     = :ios
   s.source       = { :git => "https://github.com/liyoro/DZWebBrowser.git", :tag => "0.0.1" }
-  s.source_files = 'DZWebBrowser/**/*.{h,m}'
+  s.source_files = 'Source/*.{h,m}'
   s.framework    = 'SystemConfiguration', 'CFNetwork', 'MessageUI', 'Social'
   s.resource     = "DZWebBrowser/Source/default-controls.bundle"
   s.requires_arc = true
-
+  s.dependency 'NJKWebViewProgress'
+  s.dependency 'Reachability'
+  s.dependency 'SDURLCache'
+  
 end
